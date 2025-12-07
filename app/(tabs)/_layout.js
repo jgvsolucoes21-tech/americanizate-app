@@ -5,21 +5,22 @@ export default function TabsLayout() {
     <Tabs screenOptions={{ headerShown: false }}>
       <Tabs.Screen
         name="home"
-        options={{
-          title: "Inicio",
-        }}
+        options={{ title: "Inicio" }}
       />
+
       <Tabs.Screen
         name="recursos"
-        options={{
-          title: "Recursos",
-        }}
+        options={{ title: "Recursos" }}
       />
+
       <Tabs.Screen
         name="legal"
-        options={{
-          title: "Guía Legal",
-        }}
+        options={{ title: "Guía Legal" }}
+      />
+
+      <Tabs.Screen
+        name="scripts"
+        options={{ title: "Scripts" }}
       />
     </Tabs>
   );
